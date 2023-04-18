@@ -3,9 +3,9 @@ import { defineStyle } from '@chakra-ui/react';
 export const Heading = defineStyle({
   variants: {
     lightHeader: {
-      color: 'secondary.700',
+      color: 'primary.100',
       fontWeight: '400',
-      fontFamily: 'Montserrat',
+      fontFamily: 'Open Sans',
       fontSize: '40px',
       '@media screen and (max-width: 600px)': {
         fontSize: '30px',
@@ -15,14 +15,14 @@ export const Heading = defineStyle({
       fontWeight: '500',
       fontSize: '14px',
       lineHeight: '20px',
-      fontFamily: 'Montserrat',
+      fontFamily: 'Open Sans',
     },
     stepHeader: {
       fontWeight: '600',
       fontSize: '14px',
       lineHeight: '20px',
-      fontFamily: 'Montserrat',
-      color: 'secondary.700',
+      fontFamily: 'Open Sans',
+      color: 'primary.100',
     },
   },
 });

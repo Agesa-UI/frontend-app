@@ -1,6 +1,14 @@
 import { theme as Theme, extendTheme } from '@chakra-ui/react';
 import { colors } from './colors';
-import { Button, Checkbox, Input, Select, Heading, Radio, Tag } from './components';
+import {
+  Button,
+  Checkbox,
+  Input,
+  Select,
+  Heading,
+  Radio,
+  Tag,
+} from './components';
 
 const theme = extendTheme({
   textStyles: {
@@ -35,8 +43,8 @@ const theme = extendTheme({
     '2xl': '1536px',
   },
   fonts: {
-    Heading: `Montserrat ${Theme.fonts.body}`,
-    body: `Montserrat, ${Theme.fonts.body}`,
+    Heading: `Open Sans ${Theme.fonts.body}`,
+    body: `Open Sans, ${Theme.fonts.body}`,
   },
   colors,
   components: {

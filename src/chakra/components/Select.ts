@@ -1,17 +1,17 @@
 import { defineStyleConfig } from '@chakra-ui/react';
 
-const secondaryColor = 'secondary.900';
+const secondaryColor = 'primary.200';
 export const Select = defineStyleConfig({
   baseStyle: {
     field: {
-      fontFamily: 'Inter',
+      fontFamily: 'Open Sans',
     },
   },
   variants: {
     filled: {
       field: {
         _focus: {
-          borderColor: 'secondary.800',
+          borderColor: 'primary.100',
         },
         borderRadius: '5px',
       },
@@ -19,9 +19,9 @@ export const Select = defineStyleConfig({
     outline: {
       field: {
         border: '1px solid',
-        borderColor: 'secondary.900',
+        borderColor: 'primary.100',
         _focus: {
-          borderColor: 'secondary.700',
+          borderColor: 'primary.200',
           boxShadow: 'none',
         },
       },

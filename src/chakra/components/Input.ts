@@ -3,14 +3,14 @@ import { defineStyleConfig } from '@chakra-ui/react';
 export const Input = defineStyleConfig({
   baseStyle: {
     field: {
-      fontFamily: 'montserrat',
+      fontFamily: 'Open Sans',
     },
   },
   variants: {
     filled: {
       field: {
         _focus: {
-          borderColor: 'secondary.800',
+          borderColor: 'primary.100',
         },
         borderRadius: '5px',
       },
@@ -20,7 +20,7 @@ export const Input = defineStyleConfig({
         border: '1px solid',
         borderColor: '#DADADA',
         _focus: {
-          borderColor: 'secondary.700',
+          borderColor: 'primary.200',
           boxShadow: 'none',
         },
       },
