@@ -9,7 +9,7 @@ export default function About() {
         <Text textAlign="center">About</Text>
       </Link>
       <Text color="red" textAlign="center">
-        This is the about page. My Name is Paul King and I cook sweet beans
+        This is the about page. My Name is Paul King and I like sweet beans
       </Text>
     </>
   );
