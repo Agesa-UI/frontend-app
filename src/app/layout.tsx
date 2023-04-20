@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import { usePathname } from 'next/navigation';
 // import { CacheProvider } from '@chakra-ui/next-js';
 import { ChakraProvider } from '@chakra-ui/react';
 import theme from '../chakra';
@@ -11,13 +12,14 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const pathname = usePathname();
   return (
     <html lang="en">
       <head />
       <body>
         {/* <CacheProvider> */}
         <ChakraProvider theme={theme}>
-          <Navbar />
+          {pathname !== '/sign-in' && <Navbar />}
           {children}
         </ChakraProvider>
         {/* </CacheProvider> */}
