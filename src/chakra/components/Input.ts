@@ -4,6 +4,7 @@ export const Input = defineStyleConfig({
   baseStyle: {
     field: {
       fontFamily: 'Open Sans',
+      background: 'white',
     },
   },
   variants: {
@@ -18,7 +19,7 @@ export const Input = defineStyleConfig({
     outline: {
       field: {
         border: '1px solid',
-        borderColor: '#DADADA',
+        borderColor: 'primary.100',
         _focus: {
           borderColor: 'primary.200',
           boxShadow: 'none',

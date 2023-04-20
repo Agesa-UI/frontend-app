@@ -6,7 +6,7 @@ export const Checkbox = defineStyleConfig({
       control: {
         borderRadius: 'full',
         backgroundColor: '#D9D9D9',
-        border: 'none',
+        border: '1px solid primary.100',
       },
 
       label: {
@@ -17,7 +17,7 @@ export const Checkbox = defineStyleConfig({
     },
     outlined: {
       control: {
-        borderColor: '#818181',
+        borderColor: 'primary.100',
       },
     },
   },
